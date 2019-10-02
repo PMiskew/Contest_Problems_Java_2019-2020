@@ -1,5 +1,8 @@
 import java.util.Scanner;
-
+/*
+ * https://www.cemc.uwaterloo.ca/contests/computing/2013/stage1/juniorEn.pdf
+ * 
+ */
 public class CCCJ2RotatingLetters {
 
 	public static void main(String[] args) {

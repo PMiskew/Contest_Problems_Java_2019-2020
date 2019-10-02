@@ -34,15 +34,18 @@ public class CCCJ4BigBang2012 {
 			}
 			
 			int s = 3*(i + 1) + k;
-			System.out.println(loc);
-			System.out.println(s);
 			
-			if (s > loc) {
-				s 
+			int nloc = loc - s;
+					
+			if (nloc < 0) {
+				nloc = 25 + nloc;
 			}
-			result = result + letters[(loc - s)];
 			
-		
+			//System.out.println(loc);
+			//System.out.println(s);
+			//System.out.println(nloc+"\n");
+			result = result + letters[nloc];
+			
 		}
 		
 		return result;

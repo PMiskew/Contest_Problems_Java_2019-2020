@@ -1,4 +1,9 @@
 import java.util.Scanner;
+/*
+ * 
+ * https://cemc.uwaterloo.ca/contests/computing/2016/stage%201/juniorEn.pdf
+ * 
+ */
 
 public class CCCJ2MagicSquare {
 
